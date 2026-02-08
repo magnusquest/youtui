@@ -1,0 +1,27 @@
+# YouTui Configuration
+
+# YouTube Data API v3
+youtube:
+  # API key is loaded from YOUTUBE_API_KEY environment variable
+  max_results: 25
+  region_code: "US"
+
+# mpv player settings
+player:
+  socket_path: "/tmp/youtui-mpv.sock"
+  default_volume: 80
+
+# Pomodoro settings
+pomodoro:
+  default_profile: "classic"
+  notification_sound: true
+
+# Queue persistence
+storage:
+  queue_file: "~/.config/youtui/queue.json"
+
+# UI settings
+ui:
+  show_thumbnails: true
+  thumbnail_width: 12
+  thumbnail_height: 6
