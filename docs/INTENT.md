@@ -32,3 +32,4 @@ A terminal-based music player that streams YouTube audio with queue management a
 |------|----------|-----------|
 | 2025-01-15 | Phase 1 complete — domain entities, ports, config, TUI skeleton | commit `a180d34` |
 | 2025-02-08 | Phase 2 ideation started — external adapters | Issue #1 |
+| 2025-02-08 | Phase 2 complete — all 5 adapters implemented and tested | Issue #1 closed, commit `c63ca90` |
